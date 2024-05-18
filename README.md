@@ -1,5 +1,6 @@
 # Real-Time-Data-Streaming-and-Visualization-from-Reddit
-A Spark Streaming application that will continuously read text data from Reddit, analyze the data for named entities, and send their counts to Apache Kafka. A pipeline using Elasticsearch and Kibana will read the data from Kafka and analyze it visually.
+A Spark Streaming application that will continuously read text data from Reddit (from r/Technology subreddit), analyze the data for named entities, and send their counts to Apache Kafka. A pipeline using Elasticsearch and Kibana will read the data from Kafka and analyze it visually.
+This could be used to give us an idea of influential entities in the Technology sector.
 
 # Notes:
 I have included detailed (manual) instructions at the end, you can follow those instructions opening each terminal to get everything running.
